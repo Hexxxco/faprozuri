@@ -57,7 +57,7 @@ const DownloadApkButtonFapro = () => {
   const handleDownload = () => {
     setIsLoading(true);
 
-    const apkUrl = 'https://fapro-plus.web.app/faproplus.apk'; // Reemplaza con la URL real de tu APK
+    const apkUrl = 'https://faproplus.netlify.app/faproplus.apk'; // Reemplaza con la URL real de tu APK
       const fileName=apkUrl.split("/").pop();
       const link = document.createElement('a');
       link.href = apkUrl;

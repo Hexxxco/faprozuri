@@ -9,3 +9,12 @@
 7.- No
 8.- firebase deploy
 
+
+====================
+deploy in netlify
+1. conectar con usuario de Git
+2. subir a Git desde panel grafica
+3. conectar o dar permiso netlify y git
+4 deploy desde netlify
+	y si falla =>CI=false npm run build
+ con eso deberia deploy
