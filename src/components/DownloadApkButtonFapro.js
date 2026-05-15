@@ -69,7 +69,6 @@ const DownloadApkButtonFapro = () => {
 
     // Simular una descarga para demostración, en un entorno real usarías fetch o similar
     setTimeout(() => {
-      
       setIsLoading(false);
     }, 18000); // Simula un retraso de 3 segundos para la descarga
   };
