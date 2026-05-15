@@ -1,0 +1,11 @@
+0.- correo -> zeromediazo@gmail.com
+1.- npm run build
+2.- firebase init
+    D:\React\webs\faproplus
+3.- Yes
+4.- /build
+5.- Yes
+6.- No
+7.- No
+8.- firebase deploy
+
