@@ -9,6 +9,8 @@ import { FaTelegram, FaInfoCircle } from 'react-icons/fa';
 import DownloadApkButtonFapro from './DownloadApkButtonFapro';
 //import DownloadApkButtonFapro64 from "./DownloadApkButtonFapro64";
 
+import logoapp from '../assets/img/logozuri.png';
+
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -73,6 +75,17 @@ export const Banner = () => {
                   {<h6 style={{ color: '#00ff00', fontSize: '18px' }}>ANTES DE INSTALAR SEGUIR ESTOS PASOS</h6>}
                   {<h6 style={{ color: '#ffd700', fontSize: '18px' }}>1.  - DESINSTALAR LA VERSIÓN ANTERIOR ANTES DE INSTALAR LA NUEVA VERSIÓN DE LA APLICACIÓN</h6>}
                   {<h6 style={{ color: '#ffd700', fontSize: '18px' }}>2.  - INSTALAR DESDE PLAY STORE</h6>}*/}
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <h6 style={{ color: '#d79d08', fontSize: '18px', margin: 0 }}>
+                      DESINSTALAR LA APLICACIÓN ZURI PLAY antes de instalar la nueva aplicación
+                    </h6>
+
+                    <img
+                      src={logoapp}
+                      alt="Icono"
+                      style={{ width: '50px', height: '90px', objectFit: 'contain' }}
+                    />
+                  </div>
                   <h6 style={{ color: '#ff2301', fontSize: '18px' }}>    (DAR PERMISOS PARA INSTALAR LA APLICACIÓN)</h6>
                   
                   {/*<button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>*/}
