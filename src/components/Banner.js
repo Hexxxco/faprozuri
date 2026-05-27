@@ -9,6 +9,7 @@ import { FaTelegram, FaInfoCircle } from 'react-icons/fa';
 import DownloadApkButtonFapro from './DownloadApkButtonFapro';
 //import DownloadApkButtonFapro64 from "./DownloadApkButtonFapro64";
 
+//prueba
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
